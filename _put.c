@@ -1,7 +1,7 @@
 #include "main.c"
 
 /**
- * _puts - prints a string with newline
+ * _puts - prints a string with new line
  * @str: the string to print
  *
  * Return: void
@@ -11,7 +11,7 @@ int _puts(char *str)
 	char *a = str;
 
 	while (*str)
-		_putcar(*str++);
+		_putchar(*str++);
 	return (str - a);
 }
 
@@ -20,7 +20,7 @@ int _puts(char *str)
  * @c: The character to print
  *
  * Return: On success 1.
- * On error, -1 is returned, and erno is set appropriately.
+ * On error, -1 is returned, and error is set appropriately.
  */
 int _putchar(int c)
 {
