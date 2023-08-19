@@ -4,7 +4,7 @@
  * get_specifier - finds the format func
  * @s: the format string
  *
- * Return: the number of bytes printed
+ * Return: the number of characters printed
  */
 int (*get_specifier(char *s))(va_list ap, params_t *params)
 {
@@ -33,7 +33,7 @@ int (*get_specifier(char *s))(va_list ap, params_t *params)
 		{
 			return (specifiers[i].f);
 		}
-		I++;
+		i++;
 	}
 	return (NULL);
 }
