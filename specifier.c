@@ -6,7 +6,7 @@
  *
  * Return: the number of bytes printed
  */
-int (*get_specifier(char *s))(va_list ap, params_t *param)
+int (*get_specifier(char *s))(va_list ap, params_t *params)
 {
 	specifier_t specifiers[] = {
 		{"c", print_char},
@@ -44,7 +44,7 @@ int (*get_specifier(char *s))(va_list ap, params_t *param)
  * @ap: argument pointer
  * @params: the parameters struct
  *
- * Return: the number of bytes printed
+ * Return: the number of bytes
  */
 int get_print_func(char *s, va_list ap, params_t *params)
 {
@@ -60,7 +60,7 @@ int get_print_func(char *s, va_list ap, params_t *params)
  * @s: the format string
  * @params: the parameters struct
  *
- * Return: if flag was vaild
+ * Return: if flag is vaild
  */
 int get_flag(char *s, params_t *params)
 {
