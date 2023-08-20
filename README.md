@@ -98,5 +98,4 @@ Specifier                |Output                        |Examples |
 
 ![#1589F0](https://www.iconsdb.com/icons/download/color/1589F0/circle-16.png)    Elsaaeid ellithy
 
-
 ![#1589F0](https://www.iconsdb.com/icons/download/color/1589F0/circle-16.png)    abdelrahman
