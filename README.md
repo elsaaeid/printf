@@ -89,6 +89,7 @@ Specifier                |Output                        |Examples |
 |`handle_print.c`|Prints an argument based on its type.
 |`utils.c`|Evaluates if a char is printable.
 |`write_handlers.c`|Write char, number,  a number using a bufffer, an unsigned number, a memory address.
+|`a.out`|Executable file.
 
 ------------
 
