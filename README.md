@@ -8,10 +8,10 @@ The C library function **int printf(const char *format, ...)** sends formatted o
 ```mermaid
 graph LR
 A(Formatting string)  --> B((printf)) --> C(Console output)
-D[Arg1  int] --> B
-E[Arg2 string] --> B
-F[Arg3  float] --> B
-G[ArgN type X] --> B
+D(Arg1  int) --> B
+E(Arg2 string) --> B
+F(Arg3  float) --> B
+G(ArgN type X) --> B
 ```
 
 
