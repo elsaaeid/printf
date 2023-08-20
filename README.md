@@ -37,7 +37,7 @@ Specifier                |Output                        |Examples |
 | `r` | Reversed string of characters | dlroW olleH |
 | `R` | ROT13 Translation of string | Uryyb |
 
-### Flags (In development...)
+### Flags
 
 |Flag                |Description                        |
 |----------------|-------------------------------|
@@ -47,20 +47,20 @@ Specifier                |Output                        |Examples |
 | `#` |Used with `o`, `x` or `X` specifiers the value is preceeded with 0, 0x or 0X respectively for values different than zero. |
 | `0` |Left-pads the number with zeroes (`0`) instead of spaces when padding is specified (see _width_ sub-specifier). |
 
-### Width (In development...)
+### Width
 
 |Width                |Description                        |
 |----------------|-------------------------------|
 | `(number)` |Minimum number of characters to be printed. If the value to be printed is shorter than this number, the result is padded with blank spaces. The value is not truncated even if the result is larger.|
 | `*` | The _width_ is not specified in the _format_ string, but as an additional integer value argument preceding the argument that has to be formatted.|
 
-### Precision (In development...)
+### Precision
 
 |.Precision               |Description                        |
 |----------------|-------------------------------|
 | `.(number)` |**For integer specifiers (`d`, `i`, `o`, `u`, `x`, `X`):** _precision_ specifies the minimum number of digits to be written. If the value to be written is shorter than this number, the result is padded with leading zeros. The value is not truncated even if the result is longer. A _precision_ of 0 means that no character is written for the value 0. **For `s`**: this is the maximum number of characters to be printed. By default all characters are printed until the ending null character is encountered. If the period is specified without an explicit value for _precision_, 0 is assumed. |
 
-### length modifiers (In development...)
+### length modifiers
 
 |Modifier/Specifier  |`d` & `i`  |`u`, `o`, `x`, `X` |`c` |`s` |`p` |
 |----------------|---------|------------|-------------|-----|-------|
