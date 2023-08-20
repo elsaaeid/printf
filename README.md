@@ -1,6 +1,5 @@
 # printf() 🎉
-![#1589F0](https://www.iconsdb.com/icons/download/color/1589F0/circle-16.png)    
-## Description
+ ## Description
 
 The C library function **int printf(const char *format, ...)** sends formatted output to stdout.
 
@@ -97,5 +96,5 @@ Specifier                |Output                        |Examples |
 
 ### Authors &copy;
 
-- Elsaaeid ellithy
-- abdelrahman
+![#1589F0](https://www.iconsdb.com/icons/download/color/1589F0/circle-16.png)    Elsaaeid ellithy
+![#1589F0](https://www.iconsdb.com/icons/download/color/1589F0/circle-16.png)    abdelrahman
