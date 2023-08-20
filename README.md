@@ -19,8 +19,6 @@ The following is the declaration for printf() function.
 
     int printf(const  char  *format,  ...)
 
-![printf](https://drive.google.com/file/d/15lrycTjW-gn8opx7Gmr9zT8iir4uhPwS/view?usp=sharing)
-
 ### Specifiers
 
 Specifier                |Output                        |Examples |
