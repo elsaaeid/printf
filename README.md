@@ -73,8 +73,9 @@ Specifier                |Output                        |Examples |
 
 
 ------------
+
 |Name                |Information                                        |
-|----------------|-------------------------------|-----------------------------|
+|----------------|-------------------------------|
 |`main.h`	| Header file with the data type struct, standard libraries and custom prototypes.
 |`main.c`|Entry point.
 |`_printf.c`|Main printf function file. Calls other functions.
@@ -88,6 +89,7 @@ Specifier                |Output                        |Examples |
 |`handle_print.c`|Prints an argument based on its type.
 |`utils.c`|Evaluates if a char is printable.
 |`write_handlers.c`|Write char, number,  a number using a bufffer, an unsigned number, a memory address.
+
 ------------
 
 ### Authors &copy;
