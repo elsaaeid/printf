@@ -2,7 +2,7 @@
 ## Description
 The C library function **int printf(const char *format, ...)** sends formatted output to stdout.
 
- printf function is used to print integers along with string using %d and in the arguments and send formatted output to stdout and pass variable names in a sequence and print output on the screen.
+ printf function is used to print integers along with string using %d in the arguments and send formatted output to stdout and pass variable names in a sequence and print output on the screen.
 
 ```mermaid
 graph LR
